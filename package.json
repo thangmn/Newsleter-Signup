@@ -8,13 +8,13 @@
   },
   "name": "newsleter-signup",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
     "engines": {
         "node": "14.x"
     },
 
     "scripts": {
-        "start": "node app.js"       
+        "start": "node index.js"       
     },
   "author": "",
   "license": "ISC",
