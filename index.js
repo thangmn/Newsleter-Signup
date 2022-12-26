@@ -5,7 +5,8 @@ const request = require("request");
 const client = require("@mailchimp/mailchimp_marketing");
 app = express();
 app.use(bodyParser.urlencoded({ extened: true }));
-app.use(express.static("public"));
+//app.use(express.static("public"));
+app.use(express.static(__dirname + "/public/"));
 
 
 
